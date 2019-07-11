@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 function App() { 
   return (
     <div style={{height: '800px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Portfolio / </span><strong>Caitlin Lee</strong></span>}>
+    <Layout>
+        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}> Portfolio // </span><strong>Caitlin Lee</strong></span>}>
             <Navigation>
                 <Link to="./aboutMe">About Me</Link>
                 <Link to="./projects">Projects</Link>

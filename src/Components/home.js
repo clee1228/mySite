@@ -8,10 +8,11 @@ class Home extends Component{
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="home-grid">
                     <Cell col={12}>
-                    <img src="https://www.pngrepo.com/download/10733/avatar.png" alt="avatar" className="avatar-img"></img>
+                    
 
                     <div className="banner-text">
-                        <h1> Software Engineer</h1>
+                    
+                        <h1> Hi, I'm <b> Caitlin Lee, </b> a Web Developer</h1>
                         <hr/>
 
                         <p> HTML/CSS | JavaScript | React | Python | Java</p>
