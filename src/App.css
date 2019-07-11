@@ -1,25 +1,3 @@
-.header-color {
-  background: #a8c0ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
-  background: linear-gradient(to right, #3f2b96, #a8c0ff); 
-
-}
-
-.home-grid {
-  background: #a8c0ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
-  background: linear-gradient(to right, #3f2b96, #a8c0ff); 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
- 
-}
-
-.projects-grid{
-  display: flex;
-}
 
 .project-card{
   top: 50px;
@@ -43,6 +21,7 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 
 .banner-text hr {
@@ -74,3 +53,84 @@
   padding: 8px;
 
 }
+
+/***/
+
+.nav {
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
+  background: linear-gradient(to right, #3f2b96, #a8c0ff); 
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+ 
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  -webkit-text-fill-color: white;
+  text-size-adjust: 4px;
+  
+  
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration-color: #3f2b96;
+}
+
+.navbar > .active {
+  border-bottom: 1px solid white;
+}
+
+.home {
+  height: 90vh;
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
+  background: linear-gradient(to right, #3f2b96, #a8c0ff); 
+ 
+
+}
+
+
+
+.about-section{
+  padding-top: 10em;
+  height: 100vh;
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
+  background: linear-gradient(to right, #3f2b96, #a8c0ff); 
+}
+
+.contact-section{
+  padding-top: 10em;
+  height: 100vh;
+  background-color: grey;
+}
+
+

@@ -1,21 +1,19 @@
 import React, {Component} from 'react';
-import { Grid, Cell } from 'react-mdl';
+
 
 
 class Home extends Component{
+    state = {};
     render() {
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
-                <Grid className="home-grid">
-                    <Cell col={12}>
-                    
-
+        
+            <div className="home" id="home">
+                
                     <div className="banner-text">
-                    
-                        <h1> Hi, I'm <b> Caitlin Lee, </b> a Web Developer</h1>
+                        <h1> Hi, I'm <b> Caitlin Lee</b></h1>
                         <hr/>
 
-                        <p> HTML/CSS | JavaScript | React | Python | Java</p>
+                        <p> Python | Java | HTML5/CSS | JavaScript | React </p>
 
 
                         <div className="social-links">
@@ -27,11 +25,10 @@ class Home extends Component{
                         </a>
                     </div>
                     </div>
-
-                    
-                    </Cell>
-                </Grid>
-            </div>
+        </div>
+       
+        
+        
 
 
         )
