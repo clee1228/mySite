@@ -5,8 +5,8 @@ class About extends Component{
         return(
             <div className="about-section" id="about-me">
                 <div className="banner-text">
-                        <p> Hi, I'm <b> Caitlin Lee, </b> a recent graduate from UC Berkeley</p>
-                        <hr/>
+                    <p> this is the about me section!! wooaoejfoiehfp </p>
+                        
 
                         
                        

@@ -10,9 +10,9 @@ class Home extends Component{
             <div className="home" id="home">
                 
                 <div className="banner-text">
-                        <h1> Hi, I'm <b> Caitlin Lee</b> !! </h1>
-                        <hr/>
-                        <p> I'm a recent graduate from <b>UC Berkeley</b> interested in <b>software engineering & UX/UI </b> </p>
+                        <h1> Hi, I'm <b> Caitlin Lee</b>  </h1>
+                       
+                        <p> I'm a recent graduate from <b>UC Berkeley</b> with a passion for <b>technology & design </b> </p>
                         
 
                        

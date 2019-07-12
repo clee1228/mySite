@@ -7,8 +7,8 @@ class Projects extends Component{
            
                
             <div className="project-section" id="projects">
-                <div className="bottom-text">
-                            <h1>My Recent Work</h1>
+                <div className="banner-text">
+                            <p>My Recent Work</p>
                         </div>
 
                 <Grid className="projects-grid">
