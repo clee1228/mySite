@@ -9,13 +9,16 @@ class Home extends Component{
         
             <div className="home" id="home">
                 
-                    <div className="banner-text">
-                        <h1> Hi, I'm <b> Caitlin Lee</b></h1>
+                <div className="banner-text">
+                        <h1> Hi, I'm <b> Caitlin Lee</b> !! </h1>
                         <hr/>
+                        <p> I'm a recent graduate from <b>UC Berkeley</b> interested in <b>software engineering & UX/UI </b> </p>
+                        
 
+                       
                         <p> Python | Java | HTML5/CSS | JavaScript | React </p>
 
-
+                       
                         <div className="social-links">
                         <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github-square" aria-hidden="true"/> </a>
@@ -25,6 +28,7 @@ class Home extends Component{
                         </a>
                     </div>
                     </div>
+                    
         </div>
        
         

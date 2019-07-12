@@ -1,6 +1,6 @@
 
 .project-card{
-  top: 50px;
+  top: 20px;
 }
 
 .avatar-img {
@@ -13,8 +13,9 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
-  padding-top: 10em;
+  padding-top: 8em;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 .banner-text h1 {
@@ -25,7 +26,7 @@
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 4mm ridge rgb(100, 54, 228);
   width: 50%;
   margin: auto;
 }
@@ -35,8 +36,29 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+  -webkit-font-smoothing: antialiased;
   
 }
+
+.bottom-text {
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: .5em;
+  text-align: center;
+}
+
+.bottom-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: #a8c0ff;  /* fallback for old browsers */
+ 
+  /* background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);  */ 
+
+}
+
 
 .social-links{
   display: flex;
@@ -93,7 +115,6 @@
   display: inline;
   margin-left: 2rem;
   -webkit-text-fill-color: white;
-  text-size-adjust: 4px;
   
   
 }
@@ -108,6 +129,8 @@
   border-bottom: 1px solid white;
 }
 
+
+/** SECTIONS **/ 
 .home {
   height: 90vh;
   background: #a8c0ff;  /* fallback for old browsers */
@@ -117,20 +140,62 @@
 
 }
 
-
-
 .about-section{
-  padding-top: 10em;
+  padding-top: 5em;
   height: 100vh;
   background: #a8c0ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
   background: linear-gradient(to right, #3f2b96, #a8c0ff); 
 }
 
-.contact-section{
-  padding-top: 10em;
-  height: 100vh;
-  background-color: grey;
+.project-section{
+  height: 90vh;
+  background: white;
+  
+
 }
+
+.contact-section{
+  height: 100vh;
+  background: #a8c0ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
+  background: linear-gradient(to right, #3f2b96, #a8c0ff); 
+}
+
+
+.banner-text h1 {
+ 
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  max-width: 70%;
+  max-height: 10%;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .02em; /* Adjust as needed */
+  color: white;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+
+
+
+
+
+
 
 

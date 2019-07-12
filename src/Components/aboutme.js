@@ -8,6 +8,7 @@ class About extends Component{
                         <p> Hi, I'm <b> Caitlin Lee, </b> a recent graduate from UC Berkeley</p>
                         <hr/>
 
+                        
                        
                         </div>
             </div>

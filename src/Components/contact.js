@@ -5,7 +5,14 @@ class Contact extends Component{
     render() {
         return(
             <div className="contact-section" id="contact">
-                <h1> Contact Me </h1>
+                <div className="banner-text" >
+                <h1> let's connect ! </h1>
+                </div>
+
+
+            
+                  
+            
             </div>
         )
     }

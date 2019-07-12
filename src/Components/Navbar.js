@@ -17,7 +17,10 @@ export default class Navbar extends Component {
             className="nav-logo"
             alt="Logo"
             onClick={this.scrollToTop}
+            
           />
+
+          
 
           <ul className="nav-items">
             <li className="nav-item">
@@ -36,7 +39,7 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section4"
+                to="projects"
                 spy={true}
                 smooth={true}
                 offset={-70}
