@@ -1,4 +1,11 @@
 
+.site-title{
+  font-family: 'Chivo', sans-serif;
+  display: inline-flex;
+  padding-bottom: 8px;
+  -webkit-text-fill-color: #000000; 
+}
+
 .project-card{
   top: 20px;
 }
@@ -13,7 +20,7 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
-  padding-top: 8em;
+  padding-top: 13em;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,6 +33,7 @@
   font-family: 'Chivo', sans-serif;
 }
 
+
 .banner-text hr {
   border-top: 4mm ridge rgb(11, 4, 31);
   width: 50%;
@@ -36,10 +44,17 @@
   text-align: center;
   color: black;
   font-family: 'Chivo', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   padding: 1em;
   -webkit-font-smoothing: antialiased;
   
+}
+
+.pic{
+  width: 400px;
+  height: 400px;
+  padding-left: 200px;
+  padding-top: 100px;
 }
 
 
@@ -111,10 +126,15 @@
   border-bottom: 1px solid white;
 }
 
+.about-me{
+  justify-content: center;
+  width: 43%;
+}
+
 
 /** SECTIONS **/ 
 .home {
-  height: 90vh;
+  height: 95vh;
   background: white;
   /* background: #a8c0ff; 
   background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
@@ -123,10 +143,13 @@
 
 }
 
+
 .about-section{
+  justify-content: center;
   padding-top: 0em;
   height: 100vh;
-  background: #a8c0ff;  /* fallback for old browsers */
+  background: white;
+   /* #a8c0ff;  fallback for old browsers */
   
 }
 
@@ -134,7 +157,6 @@
   height: 90vh;
   background: white;
   
-
 }
 
 .contact-section{
@@ -145,7 +167,6 @@
 
 
 .banner-text h1 {
- 
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

@@ -6,8 +6,8 @@ import { CSSTransition, TransitionGroup, } from 'react-transition-group';
 import HomePage from './home';
 import AboutMe from './aboutme';
 import Contact from './contact';
-import Projects from './projects';
-import Resume from './resume';
+import Projects from './pages/projects';
+import Resume from './pages/resume';
 
 
 const Main = () => (
