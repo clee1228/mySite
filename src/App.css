@@ -57,7 +57,7 @@
   padding-top: 5em;
 }
 
-.connect-text {
+.title-text {
   opacity: .8;
   /* width: 75%; */
   height: 50px;
@@ -202,7 +202,7 @@
 .right-half{
   /* display: flex; */
   padding-left: 530px;
-  width: 40%;
+  width: 50%;
   font-family: 'Chivo', 'sans-serif';
   margin-top: none !important;
 }
@@ -228,8 +228,6 @@
   background: linear-gradient(90deg, #FFD700 50%, #fff 50%);
   /* background: white; */
 }
-
-
 
 
 .about-section{

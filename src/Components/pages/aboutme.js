@@ -29,8 +29,6 @@ class About extends Component{
     render() {
         return(
             <div className="container">
-
-            
             <div className="about-section" id="about-me">
                 <StyleRoot>
                 <div className="left-half" style={styles.fadeInLeft}>

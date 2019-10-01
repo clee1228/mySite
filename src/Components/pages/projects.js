@@ -1,15 +1,27 @@
 import React, {Component} from 'react';
 import {Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton} from 'react-mdl';
+import { bounceInDown, flipInX, fadeInLeft, fadeInDown} from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+
+
+const styles = {
+    bounceInDown: {
+      animation: '1.5s',
+      animationName: Radium.keyframes(bounceInDown, 'bounceInDown')
+    }
+}
 
 class Projects extends Component{
     render() {
         return(
            
-               
+            <div className="container">
             <div className="project-section" id="projects">
-                <div className="banner-text">
-                            <p>My Recent Work</p>
-                        </div>
+               <StyleRoot>
+                <div className="title-text" style={styles.bounceInDown}>
+                <h6> My Recent Work </h6>
+                </div>
+                </StyleRoot>
 
                 <Grid className="projects-grid">
                     <Cell col={4}>
@@ -66,6 +78,7 @@ class Projects extends Component{
 
                     
                     </Grid>
+            </div>
             </div>
             
         )
