@@ -10,15 +10,30 @@
   max-width: 100%;
 }
 
+.app-container *{
+  box-sizing: content-box !important;
+}
+
 .container{
   margin: 60px auto 0 auto;
   max-width: 1100px;
+}
+
+.container *{
+  box-sizing: content-box !important;
 }
 
 .pic{
   position: absolute;
   width: 390px;
   height: 500px;
+  padding-left: 90px;
+}
+
+.gradPic{
+  position: absolute;
+  width: 400px;
+  height: 400px;
   padding-left: 90px;
 }
 
@@ -42,10 +57,20 @@
   padding-top: 5em;
 }
 
+.connect-text {
+  opacity: .8;
+  /* width: 75%; */
+  height: 50px;
+  margin: auto;
+  border-radius: 10px;
+  padding-bottom: 1em;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
 
 .banner-text {
   opacity: .8;
-  /* width: 75%; */
   height: 300px;
   margin: auto;
   border-radius: 10px;
@@ -78,6 +103,20 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.contact-form {
+  padding: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  /* -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important; */
+
+}
+
+/* *:not(.contact-form){
+  box-sizing: border-box;
+} */
+
 
 .social-links{
   display: flex;
@@ -101,6 +140,7 @@
   width: 100%;
   height: 75px;
   z-index: 1000;
+  display: inline-block !important;
   /* background: white; */
   background: linear-gradient(90deg, #FFD700 50%, #fff 50%);
   /* box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15); */
@@ -124,6 +164,10 @@
   align-items: center;
   height: 100%;
 
+}
+
+.nav-content *{
+  box-sizing: content-box !important;
 }
 
 .nav-item {
@@ -156,12 +200,17 @@
 }
 
 .right-half{
+  /* display: flex; */
   padding-left: 530px;
-  width: 35%;
+  width: 40%;
   font-family: 'Chivo', 'sans-serif';
   margin-top: none !important;
 }
 
+.right-half *{
+  box-sizing: content-box !important;
+}
+ 
 .right-half h3{
   margin-top: none;
 }
@@ -188,7 +237,12 @@
   padding-top: 0em;
   height: 100vh;
   background: white;
+  
    /* #a8c0ff;  fallback for old browsers */
+}
+
+.about-section *{
+  box-sizing: content-box !important;
 }
 
 .project-section{
