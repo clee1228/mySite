@@ -1,32 +1,60 @@
 import React, {Component} from 'react';
+import { bounceInDown, flipInX, fadeInLeft, fadeInDown} from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
+import Me from '../../Images/me.png';
 
-
+const styles = {
+    bounceInDown: {
+      animation: '3s',
+      animationName: Radium.keyframes(bounceInDown, 'bounceInDown')
+    },
+    flipInX: {
+        animation: '6s',
+        animationName: Radium.keyframes(flipInX, 'flipInX')
+    },
+    fadeInLeft: {
+        animation: '1s',
+        animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
+    },
+    fadeInDown: {
+        animation: '2s',
+        animationName: Radium.keyframes(fadeInDown, 'fadeInDown')
+    }
+  }
 
 class Home extends Component{
-    state = {};
     render() {
         return(
-          
+           
             <div className="home" id="home">
-                <div className="banner-text">
+
+                
+                    
+                   
+                <StyleRoot>
+                   <div className="rectangle">
+
+                   </div>
+                   <div className="banner-text">
+                    <div style={styles.flipInX}>
                         <h1> Hi, I'm <b> Caitlin Lee</b>  </h1>
-                       
-                        <p> I'm a recent graduate from <b>UC Berkeley</b> with a passion for <b>technology & design </b> </p>
-
-                        <p> Python | Java | HTML5/CSS | JavaScript | React </p>
-
-                       
-                        <div className="social-links">
-                        <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-github-square" aria-hidden="true"/> </a>
-
-                        <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-linkedin-square" aria-hidden="true"/>
-                        </a>
                     </div>
+                    </div>
+                
+                
+                </StyleRoot>
+                        
+                        
+
+                
+                                         
+                
+                       
+                       
+                   
                     </div>
                     
-        </div>
+  
 
         )
     }

@@ -2,42 +2,67 @@ import React, {Component} from 'react';
 import Grid from '@material-ui/core/Grid';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import Pic from '../../Images/pic.jpg'
 
-const styles = (theme) => ({
-    ...theme.spreadThis,
-});
+import Me from '../../Images/caitlin.jpg'
+
+import { bounceInDown, flipInX, fadeInLeft, fadeInDown } from 'react-animations';
+import ScrollAnimation from 'react-animate-on-scroll'
+import Radium, {StyleRoot} from 'radium';
+
+const styles = {
+    bounceInDown: {
+      animation: '3s',
+      animationName: Radium.keyframes(bounceInDown, 'bounceInDown')
+    },
+    fadeInLeft: {
+        animation: '1.5s',
+        animationName: Radium.keyframes(fadeInLeft, 'fadeInLeft')
+    },
+    fadeInDown: {
+        animation: '1.5s',
+        animationName: Radium.keyframes(fadeInDown, 'fadeInDown')
+    }
+}
 
 class About extends Component{
     
     render() {
-        const {classes} = this.props;
-        
         return(
+            <div className="container">
+
+            
             <div className="about-section" id="about-me">
-               
-                <div className="about-me">
+                <StyleRoot>
+                <div className="left-half" style={styles.fadeInLeft}>
                 <img 
                     className="pic"
-                    src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/48976849_10216143180906019_6920094742319464448_n.jpg?_nc_cat=101&_nc_oc=AQmbqYFi9bI1-GOixwemMm36qavgQ_On2ywOmZTBfhsNKMNAB1LE8PJHRtwxm_ipvpREL9UyJLij-B-p9kZC1Myn&_nc_ht=scontent-sjc3-1.xx&oh=10ebe5aaed24c30269607d276e7a2540&oe=5E3C8511" alt=""/>     
-
-
+                    src={Me} alt=""/>
                 </div>
-                       
-                   
+                <div className="right-half" style={styles.fadeInDown}>
+                    <h6> <b>ABOUT ME</b> </h6> 
+                    <p> Hello! My name is Caitlin Lee and I am passsionate about human-centered design & technology.
+                        I am a recent grad from University of California, Berkeley, where I studied Cognitive Science and Computer Science.
+                        Currently based in the San Francisco Bay Area - I am seeking software engineering opportunities that utilizes my technical skills,
+                        education, and passion for solving interesting problems.</p>
+                    <p><div className="social-links" style={styles.fadeInDown}>
                         
+                        <a href="https://github.com/clee1228" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-github-square" aria-hidden="true"/> </a>
     
-                        
-                  
-                    
-                        
+                        <a href="https://www.linkedin.com/in/caitlin-lee-4856bba8/" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                        </a>
+                            
+                        </div></p>
+                </div>
 
-                        
                 
-                      
+
+                </StyleRoot>    
+            </div>
             </div>
         )
     }
 }
 
-export default About
+export default About;
