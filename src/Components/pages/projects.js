@@ -26,7 +26,7 @@ class Projects extends Component{
                 <Grid className="projects-grid">
                     <Cell col={4}>
                         <Card className="project-card" shadow={3} style={{width: '350px', margin: 'auto', position: 'sticky'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Free & For Sale</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -44,7 +44,7 @@ class Projects extends Component{
                         
                     <Cell col={4}>
                         <Card className="project-card" shadow={3} style={{width: '350px', margin: 'auto', position: 'sticky'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>HouseHelper</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
@@ -61,7 +61,7 @@ class Projects extends Component{
 
                     <Cell col={4}>
                     <Card className="project-card" shadow={3} style={{width: '350px', margin: 'auto', position: 'sticky'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Bear Maps</CardTitle>
                         <CardText>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Mauris sagittis pellentesque lacus eleifend lacinia...

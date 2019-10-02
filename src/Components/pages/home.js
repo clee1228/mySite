@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { bounceInDown, flipInX, fadeInLeft, fadeInDown} from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
-import Me from '../../Images/me.png';
 
 const styles = {
     bounceInDown: {
@@ -26,11 +25,7 @@ class Home extends Component{
     render() {
         return(
            
-            <div className="home" id="home">
-
-                
-                    
-                   
+            <div className="home" id="home">    
                 <StyleRoot>
                    <div className="rectangle">
 
@@ -38,6 +33,9 @@ class Home extends Component{
                    <div className="banner-text">
                     <div style={styles.flipInX}>
                         <h1> Hi, I'm <b> Caitlin Lee</b>  </h1>
+                    </div>
+                    <div style={styles.fadeInDown}>
+                        <h6> A curious Software Developer, passionate about improving lives through user-centric design & technology </h6>
                     </div>
                     </div>
                 
