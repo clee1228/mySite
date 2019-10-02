@@ -31,6 +31,7 @@ class About extends Component{
             <div className="container">
             <div className="about-section" id="about-me">
                 <StyleRoot>
+                    
                 <div className="left-half" style={styles.fadeInLeft}>
                 <img 
                     className="pic"
@@ -38,8 +39,9 @@ class About extends Component{
                 </div>
                 <div className="right-half" style={styles.fadeInDown}>
                     <h6> <b>ABOUT ME</b> </h6> 
-                    <p> Hello! My name is Caitlin Lee and I am passsionate about human-centered design & technology.
-                        I am a recent grad from University of California, Berkeley, where I studied Cognitive Science and Computer Science.
+                    <p> Hello! My name is Caitlin Lee - I'm a curious individual and an avid learner, always with a long list of of new things I want to learn or try.
+                        I recently graduated from University of California, Berkeley, where I studied Cognitive Science & Computer Science and developed a passion for human-centric design & software development.
+                        I enjoy working collaboratively and cross-functionally, and am always up for a good challenge.
                         Currently based in the San Francisco Bay Area - I am seeking software engineering opportunities that utilizes my technical skills,
                         education, and passion for solving interesting problems.</p>
                     <p><div className="social-links" style={styles.fadeInDown}>

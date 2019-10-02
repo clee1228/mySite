@@ -12,12 +12,11 @@ class App extends Component {
   render(){
   
   return ( 
-      //  <div className="App" style={{position: 'relative'}}>
+     
       <Router>
             <Navbar/>
 
             <div className="app-container">
-              {/* <Switch> */}
                 <Route exact path="/" component={Home}/>
                 <Route 
                   exact path="/aboutme"  
@@ -28,25 +27,8 @@ class App extends Component {
                 <Route 
                   exact path="/contact"  
                   component={Contact} />
-                  
             </div>
-            
         </Router>
-             
-          
-            //  <Navbar />
-            //  <Home/>
-            //  <AboutMe/>
-            //  <Projects/>
-            //  <Contact/>
-             
-   
-             
-            //  </div>
-
-
- 
-       
   )
   };
 }

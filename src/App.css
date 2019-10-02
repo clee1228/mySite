@@ -12,6 +12,7 @@
 
 .app-container *{
   box-sizing: content-box !important;
+
 }
 
 .container{
@@ -52,6 +53,13 @@
 .project-card{
   top: 20px;
 }
+
+.hr{
+
+  /* padding-top: px; */
+}
+
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -233,7 +241,7 @@
 .about-section{
   justify-content: center;
   padding-top: 0em;
-  height: 100vh;
+  height: 80vh;
   background: white;
   
    /* #a8c0ff;  fallback for old browsers */
@@ -246,14 +254,13 @@
 .project-section{
   height: 90vh;
   background: white;
+  flex-grow: 1;
 }
 
 .contact-section{
-  height: 100vh;
+  height: 80vh;
   background: white; 
 }
-
-
 
 
 /* The typing effect */

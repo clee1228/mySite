@@ -35,7 +35,7 @@ class Home extends Component{
                         <h1> Hi, I'm <b> Caitlin Lee</b>  </h1>
                     </div>
                     <div style={styles.fadeInDown}>
-                        <h6> A curious Software Developer, passionate about improving lives through user-centric design & technology </h6>
+                        <h6> Software Developer - passionate about creating and improving lives through user-centric design + technology </h6>
                     </div>
                     </div>
                 

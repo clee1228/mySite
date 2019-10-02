@@ -78,9 +78,6 @@ class Contact extends Component{
         })
     };
 
-
-
-
     render() {
         return(
             <Fragment>

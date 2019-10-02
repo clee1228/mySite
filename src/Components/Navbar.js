@@ -1,12 +1,8 @@
 import React, { Component } from "react";
-import logo from '../Images/pic.jpg'
-// import { Link, animateScroll as scroll } from "react-scroll";
 import { Link } from 'react-router-dom';
+import Pdf from '../Util/Caitlin-Lee.pdf';
 
 export default class Navbar extends Component {
-  state={};
-
-
   render() {
     return (
       <nav className="nav" id="navbar">
@@ -18,7 +14,6 @@ export default class Navbar extends Component {
               
 
           <ul className="nav-items">
-
           <li className="nav-item">
               <Link to="/" className="nav-item"> Home </Link>
           </li>
@@ -47,6 +42,12 @@ export default class Navbar extends Component {
                 to="contact">
                 Contact
               </Link>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-item" href={Pdf} target = "_blank">
+                Resume
+              </a>
             </li>
              
           </ul>
