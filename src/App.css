@@ -52,6 +52,13 @@
 
 .project-card{
   top: 20px;
+  height: 420px;
+}
+
+.github-btn{
+  width: 100%;
+  bottom: 0;
+  position: 'relative'
 }
 
 .hr{
@@ -131,7 +138,6 @@
   width: 20%;
   /* margin: auto; */
   text-align: left;
-
 }
 
 .social-links i{
@@ -139,6 +145,8 @@
   font-size: 3em;
   padding: 4px;
 }
+
+
 
 /***/
 
@@ -262,6 +270,35 @@
   background: white; 
 }
 
+
+.ui.cards>.card>.button{
+  width: 100% !important;
+  margin-right: 10px;
+  margin: 0;
+}
+
+.project-pic{
+  margin: 10px;
+}
+
+.projects{
+  margin-bottom: 200px;
+}
+
+
+.dimmed.dimmable > .ui.animating.dimmer, .dimmed.dimmable > .ui.visible.dimmer, .ui.active.dimmer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ui.modal,
+.ui.active.modal {
+  margin: 30 auto!important;
+  top: auto !important;
+  left: auto !important;
+  transform-origin: center !important;
+  transition: all ease .5s;
+}
 
 /* The typing effect */
 @keyframes typing {
